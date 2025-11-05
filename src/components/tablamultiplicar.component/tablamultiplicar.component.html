@@ -1,0 +1,24 @@
+<div>
+    <h1>Un clásico: Tabla de multiplicar</h1>
+    <form #formNumero="ngForm">
+        <label>Numero: </label>
+        <input type="number" name="cajanumero" #cajanumero/><br/>
+        <button (click)="generarTabla()">Generar tabla</button>
+    </form>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Operacion</th>
+                <th>Resultado</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for(num of numeros; track num; let i = $index){
+                <tr style="text-align: center;">
+                    <td>{{numero}} * {{i+1}}</td>
+                    <td>{{num}}</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
