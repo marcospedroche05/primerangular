@@ -1,5 +1,11 @@
 <div>
     <h1>Deportes directivas</h1>
+    <ul>
+        <li *ngFor="let num of numeros"
+        [style.color]="num % 2 == 0 ? 'green' : 'red'">
+            {{num}}
+        </li>
+    </ul>
     <h2>Numero de deportes: {{deportes.length}}</h2>
     <div *ngIf="deportes.length < 5; then condicionTRUE; else condicionelse">
     </div>
