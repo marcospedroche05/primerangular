@@ -5,13 +5,15 @@ import { App } from './app';
 import { PrimerComponent } from '../components/primercomponent/primer.component';
 import { HooksAngular } from '../components/hooksangular/hooksangular.component';
 import { DeportesComponent } from '../components/deportes/deportes.component';
+import { Deportesv2Component } from '../components/deportesv2/deportesv2.component';
 
 @NgModule({
   declarations: [
     App, 
     PrimerComponent,
     HooksAngular,
-    DeportesComponent
+    DeportesComponent,
+    Deportesv2Component
   ],
   imports: [
     BrowserModule
