@@ -3,7 +3,8 @@ import { Component } from "@angular/core";
 @Component({
     selector: "deportes-component",
     standalone: false,
-    templateUrl: "./deportes.component.html"
+    templateUrl: "./deportes.component.html",
+    styleUrl: "./deportes.component.css"
 })
 
 export class DeportesComponent {

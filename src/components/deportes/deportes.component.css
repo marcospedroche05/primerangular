@@ -1,0 +1,9 @@
+.par {
+    color: aqua;
+    background-color: blue;
+}
+
+.impar {
+    background-color: blueviolet;
+    color: fuchsia
+}
