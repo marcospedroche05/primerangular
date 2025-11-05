@@ -4,12 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { App } from './app';
 import { PrimerComponent } from '../components/primercomponent/primer.component';
 import { HooksAngular } from '../components/hooksangular/hooksangular.component';
+import { DeportesComponent } from '../components/deportes/deportes.component';
 
 @NgModule({
   declarations: [
     App, 
     PrimerComponent,
-    HooksAngular
+    HooksAngular,
+    DeportesComponent
   ],
   imports: [
     BrowserModule
